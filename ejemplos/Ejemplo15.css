@@ -1,0 +1,16 @@
+/*Hoja de estilos CSS*/
+
+p {
+    background-color: green;
+    display: inline; /*Sale los parrafos en linea*/
+    width: 200px;
+    height: 200px;
+}
+
+span {
+    background-color: white;
+}
+
+#texto {
+    background-color: yellow;
+}

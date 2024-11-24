@@ -1,0 +1,37 @@
+div{
+	border: 1px dotted red;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+
+}
+
+a {
+	color: #CC0000;	
+	padding: 30px 30px 30px 30px;
+	margin: auto;
+	
+}
+
+/*Cuando no este visitado ni se pase por encima poner color azul*/
+/* Cuando el enlace está activo transformar el color a  #CC0000*/
+/* Cuando el enlace está activo transformar el texto a mayúsculas*/
+a:active{
+	color: blue;
+	color: #CC0000;
+	text-transform: uppercase;
+}
+
+/*Cuando el enlace sea visitado cambiar el color de fuente a gris*/
+a:visited {
+	color: grey
+}
+
+/*Cuando se pase por encima el ratón cambiar el color de fuente a negro*/
+/*Cuando se pase por encima el ratón cambiar el color de fondo a rgb(250,226,216)*/
+/*Cuando se pase por encima el ratón eliminar el subrayado*/
+a:hover {
+	color: black;
+	background-color: rgb(250,226,216);
+	text-decoration: none;
+}

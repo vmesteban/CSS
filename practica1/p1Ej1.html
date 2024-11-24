@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Ejercicio de selectores</title>
+		<style type="text/css">
+
+			/* Todos los elementos de la pagina */
+			* { 
+				font: 1em/1.3 Arial, Helvetica, sans-serif; 
+			}
+			 
+			/* Todos los párrafos de la pagina */
+			p { 
+				color: #555; 
+			}
+			 
+			/* Solo los párrafos contenidos en primero */
+			#primero p {
+				 color: #336699; 
+			}
+			 
+			/* Todos los enlaces la pagina */
+			a { 
+				color: #CC3300; 
+			}
+			 
+			/* Los elementos em contenidos en primero */
+			#primero em {
+				 background: #FFFFCC; padding: .1em; 
+			}
+			 
+			/* Todos los elementos em de tipo segundo en toda la pagina */
+			.segundo em * {
+				 background: #FFCC99; border: 1px solid #FF9900; padding: .1em; 
+			}
+			 
+			/* Elementos span contenidos en tercero */
+			.tercero span { 
+				font-weight: bold; 
+			}
+
+		</style>
+	</head> 
+	<body> 
+		<div id="primero">
+			<p>CSS es un lenguaje de hojas de estilos creado para controlar el 
+				<a href="#">aspecto o presentación</a>
+				de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su presentación y 
+				<em>es imprescindible para crear páginas web complejas</em>
+			</p> 
+		</div>	 
+		<div class="tercero">			  
+			<p>Separar la definición de los contenidos y la definición de su aspecto presenta numerosas ventajas 
+				<span><a href="#">ya que obliga a crear documentos HTML/XHTML bien definidos y con significado completo</a>
+					  (también llamados "documentos semánticos").
+				</span> 
+				Además, mejora la accesibilidad del documento, reduce la complejidad de su mantenimiento  
+				<a href="#">y permite visualizar el mismo documento en infinidad de </a>, 
+				dispositivos diferentes.
+			</p>
+		 	<p>Al crear una página web, se utiliza en primer lugar  
+				<em class="segundo">el lenguaje HTML/XHTML para marcar los contenidos, es decir, para designar la función de cada elemento dentro de la página</em> : párrafo, titular, texto destacado, tabla, lista de elementos, etc.
+			</p>		 	
+		</div>	 
+	</body>
+</html>

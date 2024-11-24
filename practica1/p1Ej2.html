@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Ejercicio de selectores</title>
+	<style type="text/css">
+		h1,td {
+			color: rgb(46, 133, 119);
+		}
+		strong,th,a {
+			color: red;
+		}
+		.destacado,.especial {
+			color: rgb(251, 195, 144);
+		}
+		h2,em,caption {
+			color: blue;		
+		}
+		td, th, table {
+			border-collapse: separate;
+			border: solid black 1px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="titulo">Para crear diseños web profesionales, es imprescindible conocer y dominar los selectores de CSS.</h1>	 
+	<p>La declaración indica <strong>"qué hay que hacer"</strong> y el selector indica <strong>"a quién hay que hacérselo"</strong> 
+		Por lo tanto, los selectores son imprescindibles para aplicar de forma correcta los estilos CSS en una página.
+		<span class="destacado">A un mismo elemento HTML se le pueden asignar infinitas reglas CSS y cada regla CSS puede aplicarse a un número infinito de elementos.</span> 
+	</p>
+	 
+	<h2 id="subtitulo">SELECTOR UNIVERSAL</h2>	 
+	<p>Se utiliza para seleccionar todos los elementos de la página  <a href="#">se indica mediante <em>un asterisco (*)</em></a>
+	</p>
+	
+	<table summary="Descripción de la tabla y su contenido">
+		<caption>Título de la tabla</caption>	
+		<tr>
+			<th scope="col"></th>
+			<th scope="col" class="especial">Título columna 1</th>
+			<th scope="col" class="especial">Título columna 2</th>
+		</tr>	
+		<tr>
+			<th scope="row" class="especial">Título fila 1</th>
+			<td>Definición 1</td>
+			<td>Definición 2</td>
+		</tr>
+		<tr>
+			<th scope="row">Título fila 2</th>
+			<td>Definición 4</td>
+			<td>Definición 5</td>
+		</tr>	
+	</table>
+	<p>
+		<span class="especial">A un mismo elemento HTML se le pueden asignar infinitas reglas CSS y cada regla CSS puede aplicarse a un número infinito de elementos.</span>
+	</p>
+</body>
+</html>

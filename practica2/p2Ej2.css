@@ -1,0 +1,20 @@
+body {
+    background-image: url("fondo.jpg");
+    border-right: solid;
+    border-left: solid;
+    border-top: dashed;
+    border-bottom: dashed;
+}
+h1,#descripcion,#contenido {
+    background-color: white;
+}
+h2 {
+    background-color: blue;
+}
+ul {
+    border: solid;
+    border-color: white;
+}
+#lista {
+    border-color: blue;
+}

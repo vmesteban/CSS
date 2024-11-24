@@ -1,0 +1,18 @@
+/*Hoja estilo CSS*/
+
+p {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    border-top-width: 5px;
+    border-bottom-width: 10px;
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-style: solid;
+    border-radius: 25px;
+
+    padding: 5px;
+}

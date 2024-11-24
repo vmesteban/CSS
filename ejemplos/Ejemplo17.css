@@ -1,0 +1,18 @@
+/*Hoja de estilo CSS*/
+
+p {
+    background-color: green;
+    display: inline-block; /*no se ven en la preview*/
+    width: 200px;
+    height: 200px;
+}
+
+span {
+    background-color: white;
+}
+
+#texto {
+    background-color: yellow;
+}
+
+/*Se colocan en la misma linea Y se mantiene la altura y anchura*/

@@ -1,0 +1,23 @@
+/*hoja de estilos cascada*/
+
+body {
+    font-family: Arial 12px;
+}
+
+fieldset {
+    width: 450px;
+    display: inline-block;
+    border-radius: 25px;
+    border-style: solid 10px black;
+    margin: 5px;
+}
+
+input {
+    border-radius: 25px;
+    margin: 5px;
+}
+
+input:active, select:active {
+    border-color: blue;
+    border-width: 10px;
+}

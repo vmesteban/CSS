@@ -1,0 +1,43 @@
+/* archivo css */
+
+p {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    border-top-width: 5px;
+    border-bottom-width: 10px;
+    border-top-color: red;
+    border-bottom-color: blue;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+span {
+    background-color: red;
+    /*esto no funciona por estar en linea*/
+    width: 200px;
+    height: 200px;
+}
+
+#texto {
+    background-color: yellow;
+}
+
+.capa {
+    width: 200px;
+    height: 200px;
+    /*display: inline-block;*/
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/*div {
+    width: 300px;
+    border: 25px solid green;
+    padding: 50px;
+    margin: 20px;
+  }*/

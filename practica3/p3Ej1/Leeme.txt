@@ -1,0 +1,13 @@
+1)Dividir el texto en 3 divs correspondientes a los 3 poemas
+2)Incluir el atributo id a cada uno de los divs con nombres poema1, poema2, poema3
+3)Crear un enlace a la hoja de estilos "estilos.css"
+4)Crear un archivo llamado estilos.css y poner un comentario que ponga "hoja de estilos de poemas"
+5)Añadir la primera regla que diga que la etiqueta body tenga un color de fondo #FFEEFF y un margen de 40 pixeles a la derecha y a la izquierda
+6)Añadir una regla que diga que todos los divs tienen que tener borde punteado y de grosor 5 pixeles y color pink
+7)Todos los divs tienen que tener 20 pixeles de separación entre los divs
+8) Separa también el texto del marco del div
+9) Pon un color de fondo a cada div.
+10) Alinea los textos de todos los div 
+11) Todos los textos tienen que estar en cursiva y tamaño de letra 20px
+12) Los autores tienen que salir en negrita y el tipo de letra debe ser Courier y en azul
+13) las obras deben salir subrayadas

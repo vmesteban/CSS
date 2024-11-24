@@ -1,0 +1,15 @@
+/*Hoja de estilos13*/
+
+p {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+span {
+    background-color: white;
+}
+
+#texto {
+    background-color: yellow;
+}

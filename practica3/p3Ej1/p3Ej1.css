@@ -1,0 +1,38 @@
+/*hoja de estilo poema*/
+
+body  {
+    background-color: #FFEEFF;
+    margin-left:  40px;
+    margin-right: 40px; 
+    font-family: cursive 20px;
+}
+
+div  {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: pink;
+    border-spacing: 20px;
+    text-align: center;
+}
+
+#poema1 {
+    background-image: url(imagenes/fondo1.jpg);
+}
+
+#poema2 {
+    background-image: url(imagenes/fondo2.jpg);
+}
+
+#poema3 {
+    background-image: url(imagenes/fondo3.jpg);
+}
+
+.autor {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: double; color: blue; 
+    font-weight: bold;
+}
+
+.poema {
+    text-decoration: underline;
+}
